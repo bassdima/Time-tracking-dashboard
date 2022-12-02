@@ -1,0 +1,144 @@
+/* TimeTracking-card__Section / work-section */
+.time-tracking-card {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("./images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: right 8% bottom 115%;
+    border-radius: 15px 15px 19px 19px;
+    padding-top: 37px;
+  }
+  
+  .time-tracking-card__main-box {
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    padding: 29px 25px 29px 24px;
+  }
+  
+  .main-box__firstline {
+    display: flex;
+    width: 100%;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .main-box__title {
+    flex: 2;
+  }
+  
+  .main-box__icon {
+    flex: 2;
+    text-align: end;
+  }
+  
+  .main-box__secondline {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    color: hsl(236, 100%, 87%);
+  }
+  
+  .text-current {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .text-last {
+    text-align: end;
+    width: 100%;
+  }
+  
+  /* Play-section */
+  .play-section {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("./images/icon-play.svg");
+    background-position: right 9% bottom 105%;
+  }
+  
+  /* Study-section */
+  .study-section {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("./images/icon-study.svg");
+    background-position: right 8% bottom 108%;
+  }
+  
+  /* Exercise-section */
+  .exercise-section {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("./images/icon-exercise.svg");
+    background-position: right 7% bottom 100%;
+  }
+  
+  /* Social-section */
+  .social-section {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("./images/icon-social.svg");
+    background-position: right 6% bottom 125%;
+  }
+  
+  /* Self-care-section */
+  .self-care-section {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("./images/icon-self-care.svg");
+    background-position: right 6% bottom 108%;
+  }
+  
+  @media (min-width: 1200px) {
+    .time-tracking-card {
+      padding-top: 45px;
+      background-position: right 9% bottom 106%;
+    }
+  
+    .time-tracking-card__main-box {
+      padding: 29px 30px 31px 31px;
+    }
+  
+    .time-tracking-card__main-box:hover {
+      background-color: #34397b;
+      cursor: pointer;
+    }
+  
+    .main-box__firstline {
+      background-position: right bottom 50%;
+      padding-bottom: 25px;
+    }
+  
+    .main-box__icon {
+      line-height: 15px;
+    }
+  
+    .main-box__icon:hover {
+      filter: brightness(0) saturate(100%) invert(99%) sepia(6%) saturate(848%) hue-rotate(249deg) brightness(120%) contrast(100%);
+      cursor: pointer;
+    }
+  
+    .main-box__secondline {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .text-current {
+      font-size: 54px;
+      padding-bottom: 10px;
+    }
+  
+    .text-last {
+      text-align: start;
+    }
+  
+    .play-section {
+      background-position: right 11% bottom 103%;
+    }
+  
+    .exercise-section {
+      background-position: right 9% bottom 101%;
+    }
+  
+    .social-section {
+      background-position: right 7% bottom 111%;
+    }
+  }
+  

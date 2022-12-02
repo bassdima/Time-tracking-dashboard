@@ -1,0 +1,28 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .wrapper {
+    display: grid;
+    margin: 81px auto;
+    width: 328px;
+    gap: 24px;
+  }
+
+  @media (min-width: 1200px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin: 100px auto;
+      width: 1110px;
+      gap: 30px;
+    }
+  }

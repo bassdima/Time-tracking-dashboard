@@ -1,0 +1,39 @@
+  .navbar {
+    padding: 25px 22px 24px 33px;
+    font-size: 18px;
+  }
+  
+  .nabar-text {
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;
+  }
+ 
+  .nabar-text__weekly {
+    margin: 0 41px 0 56px;
+  }
+
+  .navbar-select {
+    color: #fff;
+  }
+  
+  .select-input {
+    display: none;
+  }
+
+  @media (min-width: 1200px) {
+    
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 30px;
+    }
+  
+    .nabar-text__weekly {
+      margin: 22px 0;
+    }
+  
+    .nabar-text:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+  }
